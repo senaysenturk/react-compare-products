@@ -1,8 +1,13 @@
 import logo from "./logo.svg";
 import "./App.css";
+import Home from "./containers/home/Home";
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <Home />
+    </>
+  );
 }
 
 export default App;
