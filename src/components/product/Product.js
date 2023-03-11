@@ -11,6 +11,10 @@ const Product = () => {
             alt=""
           />
         </div>
+        <div className={`${style["image-overlay"]}`} />
+        <div className={`${style["view-details"]}`} onClick={""}>
+          Compare
+        </div>
         <div className={`${style["product-detail"]}`}>
           <span className={`${style["product-brand"]}`}>iPhone</span>
           <p className={`${style["product-name"]}`}>14 Pro Max - 256GB</p>
